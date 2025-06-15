@@ -1,0 +1,139 @@
+/* Cor de fundo principal para todas as páginas */
+ion-content {
+    --background: rgb(63, 64, 63) !important;
+  }
+  
+  /* Cor de fundo para o app inteiro */
+  ion-app {
+    --ion-background-color: rgb(63, 64, 63) !important;
+  }
+  
+  /* Ajuste para cards ficarem com contraste */
+  ion-card {
+    --background: #cfe3e2;
+    --color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 16px;
+  }
+  
+  /* Ajuste para items dentro dos cards */
+  ion-card ion-item {
+    --background: #74a3a0;
+    --color: #000000;
+  }
+  
+  /* Ajuste para listas */
+  ion-list {
+    background: transparent;
+  }
+  
+  /* Ajuste para items de lista */
+  ion-item {
+    --background: #ffffff;
+    --color: #000000;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  /* Ajuste para botões */
+  ion-button {
+    --color: #000000;
+  }
+  
+  /* Ajuste para textos em ion-text */
+  ion-text {
+    color: #ffffff;
+  }
+  
+  /* Ajuste para títulos em páginas */
+  ion-title {
+    color: #ffffff;
+  }
+  
+  /* Ajuste para labels */
+  ion-label {
+    color: #000000;
+  }
+  
+  /* Ajuste para input fields */
+  ion-input {
+    --color: #000000;
+    --placeholder-color: #666666;
+  }
+  
+  /* Ajuste para toolbar */
+  ion-toolbar {
+    --background: rgb(63, 64, 63);
+    --color: #ffffff;
+  }
+  
+  /* Ajuste para tab bar */
+  ion-tab-bar {
+    --background: rgb(63, 64, 63);
+    --color: #ffffff;
+  }
+  
+  /* Ajuste para tab buttons */
+  ion-tab-button {
+    --color: #ffffff;
+    --color-selected: #3880ff;
+  }
+  
+  /* Ajuste para headers */
+  ion-header {
+    background: rgb(63, 64, 63);
+  }
+  
+  /* Ajuste para textos em cards que devem ser brancos */
+  ion-card-content ion-text {
+    color: #000000;
+  }
+  
+  /* Ajuste para toast notifications */
+  ion-toast {
+    --background: rgb(63, 64, 63);
+    --color: #ffffff;
+  }
+  
+  /* Ajuste para back button */
+  ion-back-button {
+    --color: #ffffff;
+  }
+  
+  /* Ajuste para ícones */
+  ion-icon {
+    color: #ffffff;
+  }
+  
+  /* Ajuste específico para ícones em cards */
+  ion-card ion-icon {
+    color: #3880ff;
+  }
+  
+  /* Ajuste para badges */
+  ion-badge {
+    --background: #ff4444;
+    --color: #ffffff;
+  }
+  
+  /* Estilo para melhorar a legibilidade em fundos escuros */
+  .page-content {
+    background: rgb(63, 64, 63);
+  }
+  
+  /* Ajuste para sliding items */
+  ion-item-sliding {
+    background: transparent;
+  }
+  
+  /* Ajuste para item options */
+  ion-item-options {
+    background: transparent;
+  }
+  
+  ion-item-option {
+    --background: #ff4444;
+    --color: #ffffff;
+  }
